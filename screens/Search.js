@@ -4,8 +4,8 @@ import { View, Text, StyleSheet } from "react-native";
 export default class SearchScreen extends Component {
     render() {
         return (
-            <View style={Stylesheet.container}>
-                <Text style={Stylesheet.text}>Tela de Pesquisa</Text>
+            <View style={StyleSheet.container}>
+                <Text style={StyleSheet.text}>Tela de Pesquisa</Text>
             </View>
         );
     }

@@ -3,8 +3,8 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
-import TransactionScreen from "../../screens/Transaction";
-import SearchScreen from "../../screens/Search";
+import TransactionScreen from "../screens/Transaction";
+import SearchScreen from "../screens/Search";
 
 const Tab = createBottomTabNavigator();
 
